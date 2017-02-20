@@ -1,0 +1,22 @@
+{
+  "name": "gulp-project",
+  "version": "1.0.0",
+  "description": "## Используемые технологии: * HTML5 * CSS3 * JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Static15/git-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Static15/git-repo/issues"
+  },
+  "homepage": "https://github.com/Static15/git-repo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

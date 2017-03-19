@@ -156,7 +156,7 @@ if (form && document.querySelector('[data-module="calculator"]')) {
   calculateModule.init();
 }
 
-calcBtn.onclick = function() {
+
   if(document.getElementById('speedometer').value == "" || document.getElementById('speedometer').value < 0) {
     document.getElementById('tooltip-message').classList.add("tooltip-message_show");
   }
@@ -167,4 +167,15 @@ for(var i = 0; i < inputs.length; i++) {
     document.getElementById('tooltip-message').classList.remove('tooltip-message_show');
   };
 };
+
+var speed = document.getElementById('speedometer');
+var tooltip = document.getElementById('tooltip-message');
+
+document.getElementById('speedometer').addEventListener("keypress", myFunction);
+function myFunction() {
+    if(!(speed.value) || (speed.value < 0)){
+  tooltip.classList.add("tooltip-message_show");
+    }else{
+      tooltip.classList.remove("tooltip-message_show");
+    };
 };

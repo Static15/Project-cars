@@ -304,16 +304,16 @@ display: none;
   }
 }
 
-.tooltip{
+/*.tooltip{
   padding: 20px;
   display: inline-block;
-}
+}*/
 
 .tooltip-message{
   width:155px;
   position: relative;
-  bottom: 2em;
-  left: 7em;
+  bottom: 1em;
+  right: 4em;
   color: #FFFFFF;
   background: #F0000C;
   height: 27px;
@@ -331,8 +331,6 @@ display: none;
 }
 
 .tooltip-message:after {
- hight: 0;
- width: 0;
  border: 10px solid transparent;
  border-top: 10px solid #F0000C;
  content: " ";
